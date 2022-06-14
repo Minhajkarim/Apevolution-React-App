@@ -1,0 +1,49 @@
+.treeHouseContainer{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.treeHouseHeader{
+    text-align: center;
+    width: 80%;
+}
+.treeHouseHeader h1{
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+    margin: 2% 0;
+    
+}
+.treeHouseHeader p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.treeHouseBack{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.fec_btn {
+    color: black;
+    background-color: #C3FD48;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+.btn-d {
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 45%;
+  }
+/* --------------------------Media------------------------------- */
+@media screen and (max-width:600px){
+    .treeHouseHeader h1{
+        font-size: 3rem;
+    }
+    .treeHouseHeader p{ 
+        font-size: 1rem;
+    }
+ }

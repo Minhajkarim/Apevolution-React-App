@@ -1,0 +1,72 @@
+.main_div {
+    background-color: #08130F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .home_btn_discord {
+    padding: 0px 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    background-color: #C3FD48;
+    border-radius: 5px;
+  }
+  .btn_icon {
+    margin: 0 10px 0 0;
+  }
+  .last_btns {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .text_feture {
+    color: #C3FD48;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .img-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fec-text {
+    color: #C3FD48;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .fec_btn {
+    color: black;
+    background-color: #C3FD48;
+    padding: 15px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .fec_btn:hover {
+      background-color: #9ad41d;
+  }
+
+  .fec-img {
+    padding-top: 50px;
+  }
+  .fec-div {
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+  @media screen and (max-width:800px) {
+    .img-div{
+      display: block;
+      text-align: center;
+    }
+  }
